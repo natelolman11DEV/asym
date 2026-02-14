@@ -1,0 +1,32 @@
+{
+  "name": "asym-horror-framework",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "UI": {
+        "$path": "src/ui"
+      }
+    },
+    "ServerScriptService": {
+      "GameServer": {
+        "$path": "src/server"
+      },
+      "MainServer": {
+        "$path": "src/main.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "GameClient": {
+          "$path": "src/client"
+        },
+        "MainClient": {
+          "$path": "src/main.client.lua"
+        }
+      }
+    }
+  }
+}
